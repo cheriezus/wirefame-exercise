@@ -1,31 +1,115 @@
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 1%;
+    }
 
-.navlinks {  margin: 0px 50px 0px 150px;
-} 
 
-#navimage { margin-top:50px;
- 
+.flex-item1 { order: 1;
+  background: grey;
+    
+    }
+
+.flex-item2 { order: 2;
+   margin-top: 2%;
+   
+    }
+
+.flex-item3 {
+    
+    order: 3;
+ margin-top: 2%;
+    }
+
+.flex-item4 {
+    
+   order: 4;
+ margin-top: 2%;
+   
+    }
+
+.flex-item5 {
+   order: 5;
+ margin-top: 2%;
+   
+    }
+
+.hero {
+   display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    }
+
+#heroimage {
+    margin-top: 30px;
+    }
+
+.subbanner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+
 }
 
-#heroimage { margin-right: 40px;
+.subbanneritem1 {  align-self: auto; margin-right: 30px;
+    }
 
+.subbanneritem2 {  align-self: auto;
+    }
+
+.subbanneritem3 {  align-self: auto; margin-left: 30px;
+    }
+
+
+#featureandtext {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: no-wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+
+
+
+.articlecontainer {
+      display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
 }
 
-.subbanner { margin: 46px;
+.textarea {
+padding: 15px 30px 10px 0px;
+overflow: scroll;
+  height: 250px;
+inline-size: 400px; 
+margin-left: 30px
+    }
 
+/* round button from w3schools */
+#button1 {
+  margin-left: 5%;
+    align-self: flex-start;
+border-radius: 8px;
+    padding: 10px 40px 10px 40px;
+    }
+
+.footer {
+margin-top: 30px;
+  
 }
 
-#featuredsectionbanner { margin-right: 200px;
-}
 
-#textarea { padding:6em;
 
-}
-
-#button { background-color: blue;
-
-}
-
-#footerimage {color:red
-
-}
+/* hover css from w3schools */
+#button1:hover {background-color: grey}
